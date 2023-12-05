@@ -1,1 +1,3 @@
-# cs152-final-proj
+# Classifying Soccer Actions with Neural Networks
+
+In our project we tried to classify soccer actions from video using neural network techniques we had learned this semester in class. The `FinalProject` notebook contains all of the code we used to train our model. There are a few parameters that can be changed when defining the model. You can modify the reduce layer size (default 256), whether the model uses GRU or LSTM, and whether the model uses VGG16 or resnet50. All of these are parameters that can be passed to our CustomModel class initiator.
